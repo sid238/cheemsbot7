@@ -11,6 +11,7 @@
         pkgs.wget
         pkgs.git
         pkgs.nodePackages.pm2
+        pkgs.webp
     ];
   env ={
     LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [pkgs.libuuid];
